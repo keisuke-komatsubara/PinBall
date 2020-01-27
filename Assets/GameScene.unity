@@ -403,17 +403,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &408671717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 408671709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5122031474f027e4087ab797f24ccbb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &531859078
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,17 +1029,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &1284560888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1284560883}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5122031474f027e4087ab797f24ccbb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1309661598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1148,7 +1126,6 @@ GameObject:
   - component: {fileID: 1325163881}
   - component: {fileID: 1325163880}
   - component: {fileID: 1325163885}
-  - component: {fileID: 1325163886}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -1246,17 +1223,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e54db97403a24994794c43ea1b3a2ec2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1325163886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1325163879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56a7ae3ca5cff4d44832c706fe216d58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   smallstarpoint: 10
@@ -1908,7 +1874,6 @@ GameObject:
   - component: {fileID: 2128281588}
   - component: {fileID: 2128281590}
   - component: {fileID: 2128281589}
-  - component: {fileID: 2128281591}
   m_Layer: 5
   m_Name: ScoreText
   m_TagString: Untagged
@@ -1973,18 +1938,3 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2128281587}
---- !u!114 &2128281591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2128281587}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56a7ae3ca5cff4d44832c706fe216d58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  smallstarpoint: 10
-  largestarpoint: 20
-  smallcloudpoint: 30
-  largecloudpoint: 50
