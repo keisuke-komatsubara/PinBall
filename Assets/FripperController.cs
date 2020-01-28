@@ -68,6 +68,11 @@ public class FripperController : MonoBehaviour {
                     {
                         SetAngle(this.defaultAngle);
                     }
+                    //タッチしたまま左半分に指が移ると右フリッパーを元に戻す
+                    if (touch.phase == TouchPhase.Moved && tag == "RightFripperTag")
+                    {
+                        SetAngle(this.defaultAngle);
+                    }
                 }
                 else if (x >= Screen.width / 2)
                 {
@@ -78,6 +83,11 @@ public class FripperController : MonoBehaviour {
                     }
                     //右半分を離したとき右フリッパーを元に戻す
                     if (touch.phase == TouchPhase.Ended && tag == "RightFripperTag")
+                    {
+                        SetAngle(this.defaultAngle);
+                    }
+                    //タッチしたまま右半分に指が移ると左フリッパーを元に戻す
+                    if (touch.phase == TouchPhase.Moved && tag == "LeftFripperTag")
                     {
                         SetAngle(this.defaultAngle);
                     }
